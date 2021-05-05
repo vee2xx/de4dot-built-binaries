@@ -1,0 +1,203 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "de4dot/3.1.41592.3405": {
+        "dependencies": {
+          "de4dot.cui": "3.1.41592.3405",
+          "dnlib": "3.3.2"
+        },
+        "runtime": {
+          "de4dot.dll": {}
+        }
+      },
+      "dnlib/3.3.2": {
+        "dependencies": {
+          "System.Reflection.Emit": "4.7.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/dnlib.dll": {
+            "assemblyVersion": "3.3.2.0",
+            "fileVersion": "3.3.2.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Win32.SystemEvents/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "System.Drawing.Common/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.Win32.SystemEvents": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {},
+      "System.Reflection.Emit.Lightweight/4.7.0": {},
+      "AssemblyData/3.1.41592.3405": {
+        "dependencies": {
+          "de4dot.blocks": "3.1.41592.3405",
+          "de4dot.mdecrypt": "3.1.41592.3405",
+          "dnlib": "3.3.2"
+        },
+        "runtime": {
+          "AssemblyData.dll": {}
+        }
+      },
+      "de4dot.blocks/3.1.41592.3405": {
+        "dependencies": {
+          "dnlib": "3.3.2"
+        },
+        "runtime": {
+          "de4dot.blocks.dll": {}
+        }
+      },
+      "de4dot.code/3.1.41592.3405": {
+        "dependencies": {
+          "AssemblyData": "3.1.41592.3405",
+          "System.Drawing.Common": "4.7.0",
+          "de4dot.blocks": "3.1.41592.3405",
+          "de4dot.mdecrypt": "3.1.41592.3405",
+          "dnlib": "3.3.2"
+        },
+        "runtime": {
+          "de4dot.code.dll": {}
+        }
+      },
+      "de4dot.cui/3.1.41592.3405": {
+        "dependencies": {
+          "de4dot.blocks": "3.1.41592.3405",
+          "de4dot.code": "3.1.41592.3405",
+          "dnlib": "3.3.2"
+        },
+        "runtime": {
+          "de4dot.cui.dll": {}
+        }
+      },
+      "de4dot.mdecrypt/3.1.41592.3405": {
+        "dependencies": {
+          "de4dot.blocks": "3.1.41592.3405",
+          "dnlib": "3.3.2"
+        },
+        "runtime": {
+          "de4dot.mdecrypt.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "de4dot/3.1.41592.3405": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "dnlib/3.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-16p2zxL0d0FJ7POvunZ+9cn3mREmQD1rDm+1C1eIMDBRAuEGLCSWdIobrUNYP//DcfMRYHbpgB8Gh2BYjEkS2Q==",
+      "path": "dnlib/3.3.2",
+      "hashPath": "dnlib.3.3.2.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+      "path": "microsoft.win32.systemevents/4.7.0",
+      "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+      "path": "system.drawing.common/4.7.0",
+      "hashPath": "system.drawing.common.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    },
+    "AssemblyData/3.1.41592.3405": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "de4dot.blocks/3.1.41592.3405": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "de4dot.code/3.1.41592.3405": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "de4dot.cui/3.1.41592.3405": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "de4dot.mdecrypt/3.1.41592.3405": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
